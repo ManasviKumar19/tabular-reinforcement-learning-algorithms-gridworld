@@ -86,7 +86,7 @@ Performance is measured using **mean episodic return** over time.
 To run the full set of experiments and generate learning curves, execute:
 
 ```bash
-python experiment.py
+python experiment.py```
 
 
 ## Requirements:
