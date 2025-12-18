@@ -46,49 +46,37 @@ The environment is shared across all algorithms to ensure fair comparison.
 
 ## Repository Structure
 
-.
-├── Agent.py  
-│   Base agent class containing shared functionality such as action selection,
-│   evaluation, and Q-table initialization.
-│
-├── Environment.py  
-│   Implementation of the Stochastic Windy Gridworld environment.
-│
-├── DynamicProgramming.py  
-│   Q-value iteration (Dynamic Programming) implementation used to compute
-│   the optimal policy and reference return.
-│
-├── SARSA.py  
-│   On-policy SARSA learning algorithm implementation.
-│
-├── Q_learning.py  
-│   Off-policy Q-learning algorithm implementation.
-│
-├── Nstep.py  
-│   n-step Q-learning implementation supporting variable backup depth.
-│
-├── MonteCarlo.py  
-│   Monte Carlo control algorithm implementation.
-│
-├── Helper.py  
-│   Utility functions including:
-│   - ε-greedy and softmax helpers
-│   - Random tie-breaking argmax
-│   - Learning curve plotting
-│   - Smoothing functions
-│
-├── experiment.py  
-│   Main experimental script that:
-│   - Runs multiple repetitions
-│   - Compares algorithms
-│   - Evaluates exploration strategies
-│   - Generates learning curve plots
-│
-├── Project Report.pdf  
-│   Detailed project report describing methodology, experiments, and results.
-│
-└── README.md  
-    Project documentation.
+- Agent.py 
+	- Base agent class containing shared functionality such as action selection, evaluation, and Q-table initialization.
+- Environment.py  
+	- Implementation of the Stochastic Windy Gridworld environment.
+- DynamicProgramming.py  
+	- Q-value iteration (Dynamic Programming) implementation used to compute the optimal policy and reference return.
+- SARSA.py  
+	- On-policy SARSA learning algorithm implementation.
+- Q_learning.py  
+	- Off-policy Q-learning algorithm implementation.
+- Nstep.py  
+	- n-step Q-learning implementation supporting variable backup depth.
+- MonteCarlo.py  
+	- Monte Carlo control algorithm implementation.
+- Helper.py  
+	Utility functions including:
+	- ε-greedy and softmax helpers
+	- Random tie-breaking argmax
+	- Learning curve plotting
+	- Smoothing functions
+- experiment.py  
+	Main experimental script that:
+	- Runs multiple repetitions
+	- Compares algorithms
+	- Evaluates exploration strategies
+	- Generates learning curve plots
+
+- Project Report.pdf  
+	- Detailed project report describing methodology, experiments, and results.
+- README.md  
+    - Project documentation.
 
 
 
